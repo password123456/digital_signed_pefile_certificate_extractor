@@ -29,7 +29,6 @@ class Bcolors:
 
 
 def get_signature_info(_file_name):
-    # Open the executable file
     pe = pefile.PE(_file_name)
     if hex(pe.DOS_HEADER.e_magic) == '0x5a4d':
         address = pe.OPTIONAL_HEADER.DATA_DIRECTORY[pefile.DIRECTORY_ENTRY["IMAGE_DIRECTORY_ENTRY_SECURITY"]].VirtualAddress
@@ -61,7 +60,6 @@ def get_signature_info(_file_name):
                         print(f'- Thumbprint: {thumbprint}')
 
                         _export_certificate = f'{os.getcwd()}/{datetime.today().strftime("%Y%m%d%H%M%S")}_{serial_number}.der'
-                        print(_export_certificate)
                         with open(_export_certificate, 'wb+') as f:
                             f.write(cert.dump())
 
