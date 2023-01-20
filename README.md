@@ -19,4 +19,4 @@
 - https://github.com/password123456/digital_signed_pefile_certificate_extractor/blob/main/Changes
 
 ## Preview
-...coming soon...
+<img src="https://github.com/password123456/py_certificate_extractor/blob/main/preview.PNG">
