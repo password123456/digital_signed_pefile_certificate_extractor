@@ -10,7 +10,6 @@
 - Sometimes it necessary to extract certificate information from the digital signed file. 
 - Use this tool when that occurs. you can easily finish
 - Let me know if there are any changes required or additional features need it.
-- and press the "stars" if it helps. then it will continue to improvement.
 
 # Features
 - Extract the certificate information and exporting(save as) certification from the digital signed file. That's all.
