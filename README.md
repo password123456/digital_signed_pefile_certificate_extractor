@@ -1,4 +1,4 @@
-# Digital_signed_pefile_certificate_extractor
+# py_certificate_extractor
 
 ![made-with-python][made-with-python]
 ![Python Versions][pyversion-button]
