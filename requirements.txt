@@ -1,0 +1,3 @@
+pefile
+asn1crypto
+cryptography
